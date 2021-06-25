@@ -3,39 +3,184 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="style.css" />
+	<script src="https://kit.fontawesome.com/b668def6b8.js" crossorigin="anonymous"></script>
 	<title>Reservia</title>
 </head>
 <body>
-	<header>
-		<h1>Reservia</h1>
+	<div id="bloc page">
+	 <header>
+		<img src="./images/Reservia.svg" alt="Reservia">
 		<ul>
 			<li>Hébergements</li>
 			<li>Activités</li>
 			<li>S'inscrire</li>
 		</ul>
 		
-	</header>
+	 </header>
 
-	<section class="container 1">
+	 <section class="container 1">
 		<h2>Trouvez votre hébergement pour des vacances de rêve</h2> 
 		<p>En plein centre ville ou en pleine nature</p>
 		
+		<form action="/my-handling-form-page" method="post">
+		</form>
+		<i class="fas fa-map-marker-alt"></i>
+		<input type="text" name="nom_champ" id="id_champ" value="Marseille,France">
+		<button>Rechercher</button>
 
-		
-		
-	</section>
+		<div id="filtres"></div>
+
+		 <span>Filtres</span>
+		 <i class="fas fa-money-bill-wave"></i>
+		 <span>Economique</span>
+		 <i class="fas fa-child"></i>
+		 <span>Familial</span>
+		 <i class="fas fa-heart"></i>
+		 <span>Romantique</span>
+		 <i class="fas fa-dog"></i>
+		 <span>Animaux autorisés</span>
+	    
+		</div>
+
+		<div>
+			<i class="fas fa-info-circle"></i>
+			<span>Plus de 500 logements sont disponibles dans cette ville</span>
+		</div>
+	 </section>
+
+	 <section id="container 2">
+		 <h1>Hébergements à Marseille</h1>
+		 <article class="cannebière">
+			 <img src="./images/hebergements/4_small/Cannebière_mini.jpg" alt="Cannebière" height="150px"
+			 width="200px">
+			 <p>Auberge la Cannebière</p>
+			 <p>Nuit à partir de 25 €</p>
+			 <div class="star">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="far fa-star"></i>
+			  </div>
+
+		 </article>
+
+		 <article class="Port">
+			<img src="./images/hebergements/4_small/Port_mini.jpg" alt="Port"height="150px" width="200px">
+			<p>Hôtel du Port</p>
+			<p>Nuit à partir de 52 €</p>
+			<div class="star">
+			  <i class="fa fa-star"></i>
+		      <i class="fa fa-star"></i>
+		      <i class="fa fa-star"></i>
+		      <i class="fa fa-star"></i>
+			  <i class="fa fa-star"></i>
+		    </div>
+		 </article>
+
+		 <article class="Port">
+			<img src="./images/hebergements/4_small/Les mouettes_mini.jpg" alt="Port"height="150px" width="200px">
+			<p>Hôtel Les Mouettes</p>
+			<p>Nuit à partir de 76 €</p>
+			<div class="star">
+			  <i class="fa fa-star"></i>
+		      <i class="fa fa-star"></i>
+		      <i class="fa fa-star"></i>
+		      <i class="fa fa-star"></i>
+			  <i class="far fa-star"></i>
+		    </div>
+		 </article>
+		 
+		 <article class="Port">
+			<img src="./images/hebergements/4_small/Mer_mini.jpg" alt="Port"height="150px" width="200px">
+			<p>Hôtel de la mer</p>
+			<p>Nuit à partir de 46 €</p>
+			<div class="star">
+			  <i class="fa fa-star"></i>
+		      <i class="fa fa-star"></i>
+		      <i class="fa fa-star"></i>
+		      <i class="far fa-star"></i>
+			  <i class="far fa-star"></i>
+		    </div>
+		 </article>
+
+		 <article class="Port">
+			<img src="./images/hebergements/4_small/Panier_mini.jpg" alt="Port"height="150px" width="200px">
+			<p>Auberge Le Panier</p>
+			<p>Nuit à partir de 23 €</p>
+			<div class="star">
+			  <i class="fa fa-star"></i>
+		      <i class="fa fa-star"></i>
+		      <i class="fa fa-star"></i>
+		      <i class="fa fa-star"></i>
+			  <i class="far fa-star"></i>
+		    </div>
+		 </article>
+
+		 <article class="Port">
+			<img src="./images/hebergements/4_small/Port_mini.jpg" alt="Port"height="150px" width="200px">
+			<p>Hôtel chez Amina</p>
+			<p>Nuit à partir de 96 €</p>
+			<div class="star">
+			  <i class="fa fa-star"></i>
+		      <i class="fa fa-star"></i>
+		      <i class="fa fa-star"></i>
+		      <i class="fa fa-star"></i>
+			  <i class="fa fa-star"></i>
+		    </div>
+		 </article>
+
+		 <Aside>
+			
+		  <h1>Les plus populaires</h1>
+		  <i class="fas fa-chart-line"></i>
+
+		  <article class="Port">
+			<img src="./images/hebergements/4_small/soleil_du_matin_mini.jpg" alt="Port"height="150px" width="200px">
+			<p>Hôtel Le soleil du matin</p>
+			<p>Nuit à partir de 128 €</p>
+			<div class="star">
+			  <i class="fa fa-star"></i>
+		      <i class="fa fa-star"></i>
+		      <i class="fa fa-star"></i>
+		      <i class="fa fa-star"></i>
+			  <i class="fa fa-star"></i>
+		    </div>
+		  </article>
+
+		  <article class="Port">
+			<img src="./images/hebergements/4_small/coeu_de_eau_mini.jpg" alt="Port"height="150px" width="200px">
+			<p>Au coeur de l'eau Chambres d'Hôtes</p>
+			<p>Nuit à partir de 71 €</p>
+			<div class="star">
+			  <i class="fa fa-star"></i>
+		      <i class="fa fa-star"></i>
+		      <i class="fa fa-star"></i>
+		      <i class="fa fa-star"></i>
+			  <i class="far fa-star"></i>
+		    </div>
+		  </article>
+
+		  <article class="Port">
+			<img src="./images/hebergements/4_small/Bleu_et_blanc_mini.jpg" alt="Port"height="150px" width="200px">
+			<p>Hôtel Tout bleu et Blanc</p>
+			<p>Nuit à partir de 68 €</p>
+			<div class="star">
+			  <i class="fa fa-star"></i>
+		      <i class="fa fa-star"></i>
+		      <i class="fa fa-star"></i>
+		      <i class="fa fa-star"></i>
+			  <i class="far fa-star"></i>
+		    </div>
+		  </article>
+		 </Aside>
+	    </section>
 
 
-	<section>
-		
-
-	</section>
-
-
-<footer>
+     <footer>
 	
 
-</footer>
-
+     </footer>
+    </div>
 </body>
 </html>
