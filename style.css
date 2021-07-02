@@ -1,0 +1,284 @@
+body {
+font-family: 'Raleway', sans-serif;
+}
+
+#bloc_page
+{
+margin-left: 5%;
+margin-right: 5%;
+}
+
+.reservia
+{ 
+    float: left;
+    margin-top: -1%;
+}
+
+ul
+{
+    list-style-type:none;
+    text-align: right;
+    margin-top: 2%;
+}
+li
+{ 
+    display: inline;
+    margin-right: 4% ;
+}
+.clear
+{
+    clear: left;
+}
+h1
+{ 
+    font-size: 1.5em;
+}
+.subtitle
+{
+    margin-top: -1%;
+    margin-bottom: 1%;
+}
+.icon_loca i
+{
+    
+    background-color: #F2F2F2;
+    border-radius: 1em 0em 0em 1em;
+    padding: 1em 1em;
+    text-align: center;
+}
+
+input
+{
+    border-left: none;
+    border-right: none;
+    border-style: solid;
+    border-color: #F2F2F2;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    padding-left: 1em;
+    padding-right: 0.8em;
+    margin-left: -0.25rem;
+    margin-right: -0.25em;
+    font-family: 'raleway';
+    font-weight: bold;
+    font-size: 1em;
+
+}
+
+.rechercher button
+{
+    text-align: center;
+    border: none;
+    background-color: #0065FC;
+    border-radius: 0em 1em 1em 0em;
+    padding-top: 0.92em;
+    padding-bottom: 0.85em;
+    padding-right: 1em;
+    padding-left: 1em;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'raleway';
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+    cursor: pointer ;
+
+
+}
+
+#filtres
+{
+    margin-bottom: 3em;
+    margin-top: 1em; 
+}
+
+.icon_eco 
+{
+
+    background-color: #DEEBFF;
+    margin-left: 3em;
+    border-radius: 100%;
+    padding: 1em;
+    color: #0065FC;
+    font-size: 1em;  
+}
+
+.eco
+{
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'raleway';
+    background-color: white;
+    border-radius: 2em 2em 2em 2em;
+    padding: 1em;
+    padding-left: 3em ;
+    border-style: solid;
+    border-color: #F2F2F2;
+}
+
+.info i
+{
+    border-radius: 100%;
+    padding: 0.5em;
+    border-style: solid;
+    border-color: #F2F2F2;
+    color: #0065FC;
+    font-size: 0.8em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+#container_2
+{
+    border: none;
+    background-color: #F2F2F2;
+    border-radius: 1em 1em 1em 1em;
+    height: 600px;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cannebiere
+{
+    border-radius: 1em 1em;
+    background-color: white;
+    text-align: left;
+    width: 250px;
+    height: 250px;
+    box-shadow: 2px 2px 2px 2px grey;
+    display: flex;
+    flex-direction: column;   
+}
+
+.img_cannebiere
+{
+    width: 220px;
+    height: 125px;
+    padding: 1em;
+}
+
+.para_cannebiere
+{
+    margin-left: 1em;
+    margin-top: -1em;
+}
+
+.port
+{
+    border-radius: 1em 1em;
+    background-color: white;
+    text-align: left;
+    width: 250px;
+    height: 250px;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+.img_port
+{ 
+    width: 220px;
+    height: 125px;
+    padding: 1em;
+}
+
+.para_port
+{
+    margin-left: 1em;
+    margin-top: -1em;
+}
+
+.mouettes
+{
+    border-radius: 1em 1em;
+    background-color: white;
+    text-align: left;
+    width: 250px;
+    height: 250px;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.img_mouettes
+{
+    width: 220px;
+    height: 125px;
+    padding: 1em;
+}
+
+.para_mouettes
+{
+    margin-left: 1em;
+    margin-top: -1em;
+}
+
+.mer
+{
+    border-radius: 1em 1em;
+    background-color: white;
+    text-align: left;
+    width: 250px;
+    height: 250px;
+    box-shadow: 2px 2px 2px 2px grey; 
+}
+.img_mer
+{
+    width: 220px;
+    height: 125px;
+    padding: 1em;
+}
+
+.para_mer
+{
+    margin-left: 1em;
+    margin-top: -1em;
+}
+
+.panier
+{
+    border-radius: 1em 1em;
+    background-color: white;
+    text-align: left;
+    width: 250px;
+    height: 250px;
+    box-shadow: 2px 2px 2px 2px grey;  
+}
+.img_panier
+{
+    width: 220px;
+    height: 125px;
+    padding: 1em;
+}
+
+.para_panier
+{
+    margin-left: 1em;
+    margin-top: -1em;
+}
+
+.amina
+{
+    border-radius: 1em 1em;
+    background-color: white;
+    text-align: left;
+    width: 250px;
+    height: 250px;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+.img_amina
+{
+    width: 220px;
+    height: 125px;
+    padding: 1em;
+}
+
+.para_amina
+{
+    margin-left: 1em;
+    margin-top: -1em;
+}
+
+.star
+{
+    margin-left: 1em;
+    margin-bottom: 1em;
+    color: #0065FC ;
+}
