@@ -86,35 +86,55 @@ input
 
 }
 
-#filtres
+#ligne_filtres
 {
-    margin-bottom: 3em;
-    margin-top: 1em; 
+    position: relative;
+    margin-left: -30px;
+    top: 10px;
+    margin-bottom: 30px;
+    display: flex;
 }
 
-.icon_eco 
-{
 
-    background-color: #DEEBFF;
-    margin-left: 3em;
-    border-radius: 100%;
-    padding: 1em;
-    color: #0065FC;
-    font-size: 1em;  
+#liste_filtres li
+{
+    font-weight: bolder;
+    display: inline;
+    justify-content: space-around;
+    margin-left: -5px;
+
 }
 
-.eco
+.filtres
 {
-    font-weight: bold;
-    font-size: 1em;
-    font-family: 'raleway';
     background-color: white;
-    border-radius: 2em 2em 2em 2em;
-    padding: 1em;
-    padding-left: 3em ;
-    border-style: solid;
+    height: 40px;
+    border-left: transparent;
+    width: auto;
+    min-width: 100px;
+    height: 40px;
     border-color: #F2F2F2;
+    border-width: 0.01px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-left: transparent;
+    top: 50px;
+
 }
+
+#liste_filtres i
+{
+    color: #0065FC;
+    background-color: #DEEBFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 .info i
 {
