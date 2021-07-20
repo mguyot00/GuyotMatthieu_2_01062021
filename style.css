@@ -265,7 +265,7 @@ a
   color: black;
 }
   
-#Hebergements
+#hebergements
 {
   background-color: #f2f2f2;
   border-radius: 15px;
@@ -581,7 +581,7 @@ footer
 
 /*RESPONSIVE TEL*/
 
-@media (min-width:375px) and (max-width:767px)
+@media (min-width:360px) and (max-width:767px)
 {
   
 
@@ -647,7 +647,7 @@ footer
   {
     margin-top: 2em;
     margin-bottom: 3em;
-    margin-right: 3em;
+    margin-right: 2em;
   }
   
   .rechercher i
@@ -718,7 +718,7 @@ footer
     flex-direction: column;
   }
 
-  #Hebergements 
+  #hebergements 
   {
     width: 100%;
     background-color: white;
@@ -861,4 +861,139 @@ footer
   
 }
 
+@media (min-width:768px) and (max-width:1024px)
+{
+  
+  #menu
+{
+  margin-left: 8em;
+  margin-right: 1em;
+  margin-bottom: 2em;
+}
 
+
+
+  #lignefiltres
+  {
+    margin-left: 1%;
+  }
+  
+  #listefiltres
+  {
+    width: 55%;
+  }
+
+ .filtre
+  {
+    width: 36%;
+  }
+ 
+ .filtre_animaux
+ {
+   width: 48%;
+   white-space: nowrap;
+ }
+
+  .filtre_fam 
+  {
+    width: 30%;
+  }
+
+.hebergementetpop
+ {
+  margin: 25px 0 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+#hebergements 
+{
+  width: 91%;
+  position: relative;
+  margin-bottom: 20px;
+  
+}
+
+#pluspopulaires 
+{
+  width: 92%;
+  position: relative;
+  left: 1%;
+  display: grid;
+}
+  
+#activites
+  {
+    margin-left: 10px;
+    
+  }
+.partie_activites
+  {
+    width: 30%;
+  }
+
+  .act
+  {
+    margin-bottom: 1.2em;
+    width: 90%;
+  }
+
+  .act_5et6
+  {
+    margin-bottom: 1.2em;
+    width: 90%;
+  }
+
+  .img_act1
+  {
+    height: 150px;
+  }
+  
+  .img_act2
+  {
+    height: 150px;
+  }
+
+  .img_act3
+  {
+    
+    height: 150px;
+  }
+
+  .img_act4
+  {
+    height: 150px;
+  }
+
+  .img_act5
+  {
+  
+    height: 150px;
+  }
+
+  .img_act6
+  {
+    height: 150px;
+  }
+
+
+  .text_dame
+  {
+    
+    margin-top: 1%;
+    margin-bottom: 4%;
+  }
+
+  .text_parc
+  {
+    margin-top: 1%;
+    margin-bottom: 5%;
+  }
+
+
+
+
+  
+  
+}
