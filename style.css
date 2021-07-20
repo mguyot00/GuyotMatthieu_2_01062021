@@ -28,6 +28,7 @@ header
 .img_logo
 {
   margin-left: 15px;
+  width: 40%;
 }
 
 #menu
@@ -389,7 +390,7 @@ a
 {
   position: absolute;
   color: black;
-  margin-left: 6em;
+  margin-left: 8em;
 }
   
 .grey 
@@ -458,6 +459,7 @@ a
   box-shadow: 0 0 16px #0000004e;
   margin-right: 3em;
   cursor: pointer;
+  width: 90%;
 }
 
 .act_5et6
@@ -467,6 +469,7 @@ a
   background-color: white;
   box-shadow: 0 0 16px #0000004e;
   cursor: pointer;
+  width: 96%;
 }
 
 .partie_activites img
@@ -498,6 +501,7 @@ a
 .img_act5
 {
   height: 160px;
+  
 }
 
 .img_act6
@@ -596,6 +600,12 @@ footer
     width: 100%;
     padding-left: 5px;
     display: grid;
+  }
+
+  .img_logo
+  {
+    width: 15%;
+    margin-top: 1%;
   }
 
   #menu
@@ -864,6 +874,12 @@ footer
 @media (min-width:768px) and (max-width:1024px)
 {
   
+  .img_logo
+  {
+    width: 50%;
+    margin-top: 2%;
+  }
+
   #menu
 {
   margin-left: 8em;
@@ -921,6 +937,11 @@ footer
   position: relative;
   left: 1%;
   display: grid;
+}
+
+.fa-chart-line
+{
+  margin-left: 18em;
 }
   
 #activites
