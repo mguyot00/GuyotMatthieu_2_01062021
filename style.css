@@ -1,16 +1,22 @@
+html, body
+{
+  margin: 0%;
+  padding: 0%;
+}
+
 body 
 {
   font-family: 'Raleway', sans-serif;
-  padding:4px 30px 0px 30px;
-  text-align: justify;
-  line-height:20px;
+  width: 100%;
 }
 
 #bloc_page
 {
-  margin-left: 5%;
-  width: 1300px;
+  width: 100%;
+  overflow-x: hidden;
 }
+
+/*HEADER*/
 
 header
 { 
@@ -19,10 +25,16 @@ header
   justify-content: space-between;
 }
 
+.img_logo
+{
+  margin-left: 15px;
+}
+
 #menu
 {
   display: flex;
-  margin-left: 52em;
+  margin-left: 46em;
+  margin-right: 2em;
 }
     
 
@@ -59,13 +71,17 @@ header
 h1
 { 
   font-size: 1.5em;
+  margin-left: 15px;
 }
 
 .subtitle
 {
+  margin-left: 16px;
   margin-top: -1%;
   margin-bottom: 1%;
 }
+
+/*BARRE DE RECHERCHE*/
 
 .icon_loca i
 {  
@@ -74,6 +90,7 @@ h1
   padding: 0.99em 1em;
   padding-bottom: 0.95em;
   text-align: center;
+  margin-left: 16px;
 }
 
 input
@@ -86,7 +103,7 @@ input
   padding-bottom: 0.73em;
   padding-left: 1em;
   padding-right: 0.8em;
-  margin-left: -0.25rem;
+  margin-left: -0.25em;
   margin-right: -0.25em;
   font-family: 'raleway';
   font-weight: bold;
@@ -118,6 +135,8 @@ input
   display: none;
 }
 
+/*FILTRES*/
+
 #lignefiltres
 {
   display:flex;
@@ -127,6 +146,7 @@ input
 
 #titrefiltre
 {
+  margin-left: 16px;
   margin-top:10px;
   font-weight:bolder;
 }
@@ -135,7 +155,7 @@ input
 #listefiltres
 {
   display:flex;
-  margin-left:20px;
+  margin-left:12px;
 }
 
 .filtre:hover
@@ -209,7 +229,7 @@ input
   align-items: center;
 }
 
-
+/*INFO*/
 
 .info i
 {
@@ -223,12 +243,15 @@ input
   margin-top: -6px;
   margin-right: 1em;
   float: left;
+  margin-left: 16px;
 }
 
 .info_text
 {
   margin-top: 2em;
 }
+
+/*HEBERGEMENTS*/
 
 .hebergementetpop 
 {
@@ -248,7 +271,7 @@ a
   border-radius: 15px;
   width: 62%;
   padding: 20px;
-  margin: 0 25px 0 0;
+  margin: 0px 25px 0 16px;
 }
   
 .hebergementmarseille
@@ -312,12 +335,14 @@ a
   font-weight: bolder;
   padding-left: 8px;
 }
+
+/*PLUS POPULAIRES*/
   
 #pluspopulaires 
 {
   background-color: #f2f2f2;
   border-radius: 15px;
-  width: 32%;
+  width: 29%;
   padding: 20px;
   display: grid;
 }
@@ -384,10 +409,9 @@ a
 }
 
 .etoilespop1 
-{
+{ 
   margin: 52px;
   color:#0065FC ;
-
 }
 
 .etoilespop2 
@@ -398,11 +422,16 @@ a
 
 .etoilespop3
 {
-  margin: 35px;
-  color:#0065FC ;
-
+  margin: 52px;
+  color:#0065FC;
 }
 
+/*ACTIVITES*/
+
+.titre_activites
+{
+  margin-left: 16px;
+}
 
 
 
@@ -414,10 +443,11 @@ a
   justify-content: space-between;
   align-content: space-between;
   height: 495px;
+  margin-left: 16px;
   margin-top: 30px;
   margin-bottom: 100px;
   box-sizing: border-box;
-  width: 25%;
+  width: 24.15%;
 }
 
 .act
@@ -522,6 +552,8 @@ a
   transform: scale(1.03);
 }
 
+/*FOOTER*/
+
 footer
 {
   background-color: #f2f2f2;
@@ -534,7 +566,7 @@ footer
 
 #propos
 {
-  margin-left: 11em;
+  margin-left: 13em;
 }
 
 #assistance
@@ -547,15 +579,19 @@ footer
   cursor: pointer;
 }
 
-@media (min-width: 300px) and (max-width: 767px) {
+/*RESPONSIVE TEL*/
+
+@media (min-width:375px) and (max-width:767px)
+{
+  
 
   #bloc_page
   {
     width: 100%;
-    margin: 0%;
   } 
   
-  header {
+  header
+  {
     margin: 0;
     width: 100%;
     padding-left: 5px;
@@ -570,43 +606,48 @@ footer
     width: 100%;
     margin-top: 2px;
     margin-bottom: 100px;
-  
   }
 
-  #menu3 {
+  #menu3 
+  {
     position: ABSOLUTE;
     top: 0px;
-    right: 30px;
+    right: -20px;
   }
 
-  #menu1 {
+  #menu1 
+  {
     position:absolute;
     top: 60px;
-    right: 180px;
+    right: 110px;
     border-bottom: 2px solid #0065fc;
     border-top: none;
     padding-bottom: 1em;
-    padding-left: 5em;
-    padding-right: 5em;
-   
+    padding-left: 4em;
+    padding-right: 3em;
   }
+
   #menu2 
   {
     position: absolute;
     top: 60px;
-    right: -60px;
+    right: -100px;
     border-bottom: 2px solid #f2f2f2;
     padding-bottom: 1em;
     padding-left: 4em;
-    padding-right: 7em;
-       
+    padding-right: 5em;   
+  }
+
+  h1
+  {
+    width: 90%;
   }
 
   input
   {
     margin-top: 2em;
-    padding-right: 5em;
     margin-bottom: 3em;
+    margin-right: 3em;
   }
   
   .rechercher i
@@ -617,13 +658,18 @@ footer
     padding: 16px;
     border-radius: 18px;
     position: relative;
-    right: 40px;
+    right: 60px;
     cursor: pointer;
   }
   
   .rechercher button
   {
     display: none;
+  }
+
+  #lignefiltres
+  {
+    margin-left: 2%;
   }
   
   #titrefiltre
@@ -642,14 +688,14 @@ footer
   {
     width: 80%;
     margin-bottom: 10px;
-    margin-left: -70px;
+    margin-left: -60px;
   }
  
  .filtre_animaux
  {
    width: 100%;
    margin-bottom: 10px;
-   margin-left: -70px;
+   margin-left: -60px;
    margin-right: 55px;
    white-space: nowrap;
  }
@@ -657,8 +703,13 @@ footer
   .filtre_fam 
   {
     position: absolute;
-    margin: 0px 0 0 20%;
-    width: 30%;
+    margin: 0px 0 0 30%;
+    width: 35%;
+  }
+
+  .info_text
+  {
+    width: 90%;
   }
 
   .hebergementetpop 
@@ -673,7 +724,6 @@ footer
     background-color: white;
     order: 2;
     width: 100%;
-
   }
 
   .hebergementmarseille 
@@ -682,10 +732,12 @@ footer
     flex-direction: column;
   }
 
-  .hotel {
+  .hotel 
+  {
     width: 90%;
     height: 220px;
     font-size: 15px;
+    margin-left: -15px;
   }
 
   .titre_pop
@@ -694,22 +746,38 @@ footer
     font-weight: bolder;
   }
 
-  .hotelpop {
+  .fa-chart-line
+  {
+   margin-left: 3em;
+  }
+
+  .hotelpop
+  {
     width: 95%;
     padding: 5px;
-    margin-left: 40px;
+    margin-left: 32px;
     font-size: 14px;
   }
 
+  .etoilespop1
+  {
+  margin-top: 40px; 
+  }
+
+  .etoilespop2
+  {
+    margin-top: 38px;
+  }
+
   .etoilespop3
-{
-  margin-top: 54px; 
+  {
+  margin-top: 40px; 
+  }
 
-}
-
-  #pluspopulaires {
+  #pluspopulaires 
+  {
     width: 98%;
-    margin: 0em;
+    margin: 0px;
     margin-left: -40px;
     border-radius: 0em;
     padding-right: 20%;
@@ -719,7 +787,7 @@ footer
 
   #activites
   {
-    margin-left: 30px;
+    margin-left: 10px;
     width: 100%;
   }
 
@@ -727,7 +795,6 @@ footer
   {
     width: 100%;
     height: auto;
-   
   }
 
   .act
@@ -791,17 +858,7 @@ footer
   {
     margin-left: 13em;
   }
- 
- 
-
-
- 
-  
-
- 
-
- 
   
 }
 
-  
+
