@@ -293,6 +293,7 @@ a
   box-sizing: border-box;
   margin: 0 6px 20px 6px;
   box-shadow: 0 5px 16px #0000004e;
+  font-size: 0.9em;
 } 
 
 .hotel:hover
@@ -367,8 +368,9 @@ a
   box-sizing: border-box;
   margin: 0px 0px 20px 0px;
   box-shadow: 0 5px 16px #0000004e;
-  max-width: 420px;
+  max-width: 350px;
   max-height: 145px;
+  font-size: 0.9em;
   
 }
 
@@ -430,6 +432,7 @@ a
 .etoilespop1 
 { 
   position: relative;
+  box-sizing: border-box;
   margin: 30px;
   color:#0065FC ;
 }
@@ -912,7 +915,7 @@ footer
   
 }
 
-@media (min-width:428px) and (max-width:650px)
+@media (min-width:428px) and (max-width:649px)
 {
 
   #bloc_page
@@ -1092,7 +1095,7 @@ footer
 
   .etoilespop1
   {
-  margin-top: 56px; 
+  margin-top: 40px; 
   }
 
   .etoilespop2
@@ -1345,6 +1348,11 @@ footer
     max-width: none;
   }
 
+  .popimage1
+  {
+    width: 41%;
+  }
+
   .etoilespop1
   {
   margin-top: 56px; 
@@ -1463,7 +1471,7 @@ footer
 
 
 
-@media (min-width:768px) and (max-width:934px)
+@media (min-width:768px) and (max-width:903px)
 {
   
   .img_logo
@@ -1642,7 +1650,7 @@ footer
   
 }
 
-@media (min-width:934px) and (max-width:1025px)
+@media (min-width:904px) and (max-width:996px)
 {
   
   .img_logo
@@ -1821,9 +1829,185 @@ footer
 
 
 
-@media (min-width:1025px) and (max-width:1054px) 
+@media (min-width:997px) and (max-width:1024px) 
 {
   
+  .img_logo
+  {
+    width: 15%;
+    margin-top: 2%;
+  }
+
+  #menu
+{
+  margin-left: 8em;
+  margin-right: 1em;
+  margin-bottom: 2em;
+}
+
+
+
+  #lignefiltres
+  {
+    margin-left: 1%;
+  }
+  
+  #listefiltres
+  {
+    width: 55%;
+  }
+
+ .filtre
+  {
+    width: 36%;
+  }
+ 
+ .filtre_animaux
+ {
+   width: 48%;
+   white-space: nowrap;
+ }
+
+  .filtre_fam 
+  {
+    width: 30%;
+  }
+
+.hebergementetpop
+ {
+  margin: 25px 0 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+#hebergements 
+{
+  width: 91%;
+  position: relative;
+  margin-bottom: 20px;
+  
+}
+
+#pluspopulaires 
+{
+  width: 86%;
+  position: relative;
+  left: 2%;
+  display: grid;
+  max-width: none;
+}
+
+  .fa-chart-line
+  {
+  margin-left: 22em;
+  }
+
+  .hotelpop 
+  {
+    max-width: none;
+  }
+
+  .popimage1 
+  {
+  width: 41%;
+  }
+
+  .etoilespop1
+  {
+  margin-top: 52px; 
+  }
+
+  .etoilespop3
+  {
+  margin-top: 52px; 
+  }
+  
+#activites
+  {
+    margin-left: 10px;
+    
+  }
+.partie_activites
+  {
+    width: 30%;
+  }
+
+  .act_1et4
+  {
+    margin-bottom: 1.2em;
+    width: 90%;
+  }
+
+  .act_2et3
+  {
+    margin-bottom: 1.2em;
+    width: 90%;
+  }
+
+  .act_5et6
+  {
+    margin-bottom: 1.2em;
+    width: 90%;
+  }
+
+  .img_act1
+  {
+    height: 150px;
+  }
+  
+  .img_act2
+  {
+    height: 150px;
+  }
+
+  .img_act3
+  {
+    
+    height: 150px;
+  }
+
+  .img_act4
+  {
+    height: 170px;
+  }
+
+  .img_act5
+  {
+  
+    height: 150px;
+  }
+
+  .img_act6
+  {
+    height: 150px;
+  }
+
+  .text_parc
+  {
+    margin-top: 1%;
+    margin-bottom: 5%;
+  }
+
+  
+
+  #propos
+  {
+  margin-left: 3em;
+  }
+
+  #assistance
+  {
+  margin-right: 5em;
+  }
+ 
+  
+}
+
+
+
+@media (min-width:1025px) and (max-width:1060px) 
+{
   .img_logo
   {
     width: 11%;
@@ -1843,17 +2027,11 @@ footer
   margin-left: 1em;
   }
 
-  .etoilespop1
-  {
-  margin-top: 12px; 
-  }
-
   .etoilespop2
   {
     margin-top: 10px;
   }
 
- 
   .partie_activites
   {
     width: 22%;
@@ -1868,16 +2046,14 @@ footer
   margin-left: 4em;
   }
 
-#assistance
+  #assistance
   {
   margin-right: 8em;
   }
 
-
-
 }
 
-@media (min-width:1054px) and (max-width:1161px) 
+@media (min-width:1061px) and (max-width:1161px) 
 {
   .img_logo
   {
@@ -1900,7 +2076,7 @@ footer
 
   .etoilespop2
   {
-    margin-top: 10px;
+    margin-top: 32px;
   }
 
   .partie_activites
@@ -2014,6 +2190,11 @@ footer
   }
 
   .etoilespop1
+  {
+  margin-top: 52px; 
+  }
+
+  .etoilespop3
   {
   margin-top: 52px; 
   }
