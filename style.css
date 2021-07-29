@@ -771,6 +771,11 @@ footer
     order: 2;
     width: 90%;
   }
+  
+  .titreMarseille
+  {
+    margin-left: 14px;
+  }
 
   .hebergementmarseille 
   {
@@ -783,6 +788,12 @@ footer
   {
     width: 84%;
     font-size: 15px;
+    margin-left: 18px;
+  }
+
+  .afficherplus
+  {
+    margin-left: 15px;
   }
 
   .titre_pop
